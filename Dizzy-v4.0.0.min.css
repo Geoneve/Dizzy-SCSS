@@ -1,0 +1,1237 @@
+@charset "UTF-8";
+/* Dizzy Framework - "Fast, Responsive, Stylish."
+* Dizzy Framework - SCSS Original - v1.0
+* 2020 GeoneveStudios™ All Rights Reserved.
+* *Download*: *https://github.com/geoneve/DizzyFramework*
+* *Website*:  *https://geonevestudios.glitch.me*
+* M.I.T License.
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #212529;
+}
+
+.dizzy-nest {
+  background: #ddd;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+  box-shadow: inset 0 0 6px #2b2b2b;
+}
+.dizzy-nest #dizzy-nest-heading {
+  font-size: 4rem;
+}
+
+.DFN-opacity-class-txt {
+  color: #aaa;
+}
+
+.DFN-adaptable-background {
+  background: white;
+  box-shadow: inset 0 0 4px #5e5e5e;
+}
+
+pre.pre-b {
+  background: #ccc;
+}
+
+.dizzy-navbar {
+  padding: 15px;
+}
+
+.dizzy-navbar-inverse {
+  background-color: #222;
+}
+.dizzy-navbar-inverse .dizzy-navbar-container {
+  display: inline-block;
+}
+.dizzy-navbar-inverse a.dizzy-nav-item,
+.dizzy-navbar-inverse a.navbar-brand {
+  padding: 10px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dizzy-navbar-inverse a.navbar-brand {
+  font-size: 20px;
+}
+.dizzy-navbar-inverse a.navbar-brand:hover,
+.dizzy-navbar-inverse a.dizzy-nav-item:hover {
+  color: #bbb;
+}
+
+.dizzy-navbar-inverse-dropdown {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #262626;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #515151;
+  display: none;
+}
+
+.showA {
+  display: block;
+}
+
+.DF-specialFont {
+  text-decoration: none;
+  font-size: 3vw;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.DF-specialFont .DF-bold {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.dizzy-navbar-default {
+  background-color: #eee;
+}
+.dizzy-navbar-default .dizzy-navbar-container {
+  display: inline-block;
+}
+.dizzy-navbar-default a.dizzy-nav-item,
+.dizzy-navbar-default a.navbar-brand {
+  padding: 10px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dizzy-navbar-default a.navbar-brand {
+  font-size: 20px;
+}
+.dizzy-navbar-default a.navbar-brand:hover,
+.dizzy-navbar-default a.dizzy-nav-item:hover {
+  color: #888;
+}
+
+.dizzy-navbar-default-dropdown {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: #d1d1d1;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #aeaeae;
+  display: none;
+}
+
+.showB {
+  display: block;
+}
+
+.dizzy-navbar-redshaded {
+  background: #f33a3a;
+}
+.dizzy-navbar-redshaded .navbar-brand {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dizzy-navbar-redshaded .navbar-brand:hover {
+  color: #ccc;
+}
+.dizzy-navbar-redshaded .nav-item {
+  padding: 10px;
+}
+.dizzy-navbar-redshaded .navbar-container {
+  display: inline;
+  padding: 0px;
+}
+.dizzy-navbar-redshaded .navbar-container .dizzy-nav-item {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dizzy-navbar-redshaded .navbar-container .dizzy-nav-item:hover {
+  color: #ccc;
+}
+.dizzy-navbar-redshaded .dizzy-navbar-redshaded-dropdown {
+  background-color: #f32c2c;
+  width: fit-content;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #f11818;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.dizzy-navbar-redshaded .dizzy-navbar-redshaded-dropdown .nav-item {
+  color: white;
+  text-decoration: none;
+}
+.dizzy-navbar-redshaded .dizzy-navbar-redshaded-dropdown .nav-item:hover {
+  color: #ccc;
+}
+.dizzy-navbar-redshaded .showC {
+  display: block;
+}
+
+.kind1 {
+  box-shadow: inset 0 0 6px #444;
+}
+
+.kind2 {
+  box-shadow: inset 0 0 6px #aaa;
+}
+
+.kind3 {
+  box-shadow: inset 0 0 6px #ed0e0e;
+}
+
+.container {
+  padding: 10px;
+}
+
+.well {
+  background-color: #ddd;
+  border: 1px solid #bbb;
+  padding: 15px;
+  box-shadow: 0 0 0.1rem #aaa;
+}
+
+button {
+  padding: 11px;
+  transition: 0.2s;
+  display: inline-block;
+  font-size: 20px;
+  display: inline-block;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.radius {
+  border-radius: 5px;
+}
+
+.dizzy-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid #bbb;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-small {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.btn-large {
+  padding: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.dizzy-btn-primary {
+  background-color: #2670de;
+  color: white;
+  border: 1px solid #226ddd;
+  border-radius: 5px;
+}
+
+.dizzy-btn-primary:hover {
+  background-color: #2069d4;
+}
+
+.dizzy-btn-primary:focus {
+  background: #2a73df;
+  border: 1px solid #2a73df;
+  box-shadow: 0 0 0 0.2rem #95b9ef;
+}
+
+.dizzy-btn-secondary {
+  background-color: #7b7877;
+  color: white;
+  border: 1px solid #7b7877;
+}
+
+.dizzy-btn-secondary:hover {
+  background: #6e6b6a;
+  border-color: #6e6b6a;
+}
+
+.dizzy-btn-secondary:focus {
+  background: #7e7a79;
+  border: 1px solid #7e7a79;
+  box-shadow: 0 0 0 0.2rem #bab8b7;
+}
+
+.dizzy-btn-info {
+  background-color: #de7626;
+  color: white;
+  border: 1px solid #dd7322;
+  border-radius: 5px;
+}
+
+.dizzy-btn-info:hover {
+  background-color: #d46f20;
+}
+
+.dizzy-btn-info:focus {
+  background: #df792a;
+  border: 1px solid #df792a;
+  box-shadow: 0 0 0 0.2rem #efbc95;
+}
+
+.dizzy-btn-caution {
+  background-color: #ffc108;
+  color: black;
+  border: 1px solid #ffc108;
+  border-radius: 5px;
+}
+
+.dizzy-btn-caution:hover {
+  background-color: #ffc722;
+  border: 1px solid #ffc722;
+}
+
+.dizzy-btn-caution:focus {
+  background: #ffc003;
+  border: 1px solid #ffc003;
+  box-shadow: 0 0 0 0.2rem #ffe188;
+}
+
+.dizzy-btn-danger {
+  background-color: #e55252;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #e44e4e;
+}
+
+.dizzy-btn-danger:hover {
+  background-color: #e34545;
+}
+
+.dizzy-btn-danger:focus {
+  background: #e65656;
+  border: 1px solid #e65656;
+  box-shadow: 0 0 0 0.2rem #f6c1c1;
+}
+
+.dizzy-btn-success {
+  background-color: #52e572;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #4ee46e;
+}
+
+.dizzy-btn-success:hover {
+  background-color: #45e367;
+}
+
+.dizzy-btn-success:focus {
+  background: #56e676;
+  border: 1px solid #56e676;
+  box-shadow: 0 0 0 0.2rem #c1f6cc;
+}
+
+.dizzy-btn-dark {
+  background-color: #444444;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #444444;
+}
+
+.dizzy-btn-dark:hover {
+  background-color: #3c3c3c;
+}
+
+.dizzy-btn-dark:focus {
+  background: #474747;
+  border: 1px solid #474747;
+  box-shadow: 0 0 0 0.2rem #777777;
+}
+
+.dizzy-btn-light {
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.dizzy-btn-light:hover {
+  background-color: #f2f2f2;
+}
+
+.dizzy-btn-light:focus {
+  border: 1px solid #b3e0f2;
+  box-shadow: 0 0 0 0.2rem #def2fa;
+}
+
+.dizzy-form-control {
+  background-color: #fff;
+  padding: 10px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 20px;
+  color: #444;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.dizzy-form-control:focus {
+  border: 1px solid #9dd7ef;
+  box-shadow: 0 0 0 0.2rem #c9e9f6;
+}
+
+.dizzy-form-button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.-form-lg {
+  width: 600px;
+}
+
+.flex {
+  display: flex;
+}
+
+.-search-method {
+  border-radius: 0px;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.dizzy-float-right {
+  text-align: right;
+}
+
+.dizzy-alert {
+  padding: 15px;
+  font-family: google sans, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+
+.dizzy-alert-primary {
+  background-color: #1f64cc;
+  border: 1px solid #1c59b5;
+  color: #3c7fe1;
+}
+
+.dizzy-alert-info {
+  background-color: #cc6a1f;
+  border: 1px solid #b55e1c;
+  color: #e1843c;
+}
+
+.dizzy-alert-caution {
+  background-color: #dce23c;
+  border: 1px solid #d8de26;
+  color: #e4e868;
+}
+
+.dizzy-alert-danger {
+  background-color: #e23c3c;
+  border: 1px solid #de2626;
+  color: #e86868;
+}
+
+.dizzy-iframe {
+  border: 1px solid black;
+  box-shadow: 0 0 0.4rem black;
+  border-radius: 5px;
+}
+
+.dizzy-iframe-default {
+  transition: 0.2s;
+  opacity: 100%;
+}
+
+.dizzy-btn-group {
+  padding: 10px;
+  display: flex;
+}
+.dizzy-btn-group button {
+  border-radius: 0px;
+}
+
+.dizzy-btn-group button:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left-radius: 0px;
+}
+
+.dizzy-btn-group button:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right-radius: 0px;
+}
+
+.dizzy-btn-group button:not(:first-child):not(:last-child) {
+  border-radius: none;
+}
+
+.dizzy-panel-holder {
+  padding: 15px;
+  color: #444;
+  font-family: roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.dizzy-panel-holder .dizzy-panel-header {
+  background-color: #2670de;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  padding: 15px;
+  color: white;
+  border: 1px solid #1c59b5;
+  border-bottom: none;
+  font-weight: 600;
+}
+.dizzy-panel-holder .dizzy-panel-content {
+  background: #ffffff;
+  border: 1px solid #bbb;
+  padding: 10px;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Dizzy Framework | Section 2
+* Dizzy Framework - SCSS Original - v2.0
+* 2021 GeoneveStudios™ All Rights Reserved.
+* *Download*: *https://github.com/geoneve/DizzyFramework*
+* *Website*:  *https://geonevestudios.glitch.me*
+* M.I.T License.
+*/
+select {
+  background-color: #ffffff;
+  color: black;
+  padding: 8px;
+  font-size: 18px;
+  outline: none;
+  font-family: google sans, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border: 1px solid #bbb;
+  cursor: pointer;
+  transition: 0.2s;
+}
+select option {
+  background-color: #2670de;
+  color: #ffffff;
+}
+
+select:hover {
+  background-color: #e6e6e6;
+}
+
+.dizzy-card {
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  box-shadow: 3px 4px 3px gray;
+}
+
+.dizzy-loader-primary {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #2670de;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.dizzy-loader-info {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #de7626;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.dizzy-loader-caution {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #ffc108;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.dizzy-loader-danger {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #e55252;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.dizzy-loader-success {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #52e572;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.dizzy-loader-dark {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #444444;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+.dizzy-loader-light {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #d9d9d9;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.dizzy-progressbar-primary {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-primary .dizzy-progress-color-primary {
+  background-color: #2670de;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-progressbar-info {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-info .dizzy-progress-color-info {
+  background-color: #de7626;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-progressbar-caution {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-caution .dizzy-progress-color-caution {
+  background-color: #ffc108;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-progressbar-danger {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-danger .dizzy-progress-color-danger {
+  background-color: #e55252;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-progressbar-success {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-success .dizzy-progress-color-success {
+  background-color: #52e572;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-progressbar-dark {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-dark .dizzy-progress-color-dark {
+  background-color: #444444;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-progressbar-light {
+  background-color: #f3f3f3;
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dizzy-progressbar-light .dizzy-progress-color-light {
+  background-color: #e6e6e6;
+  height: 30px;
+  width: 50%;
+}
+
+.dizzy-btn-link {
+  color: #34d5eb;
+  border: none;
+  background: inherit;
+}
+
+.dizzy-btn-link:hover {
+  color: #1dd0e9;
+  text-decoration: underline;
+}
+
+.dizzy-btn-link:active {
+  color: #7ae3f2;
+}
+
+/* Dizzy Framework | Section 3 
+* Dizzy Framework - SCSS Original - v3.0
+* 2021 GeoneveStudios™ All Rights Reserved.
+* *Download*: *https://github.com/geoneve/DizzyFramework*
+* *Website*:  *https://geonevestudios.glitch.me*
+* M.I.T License.
+*/
+a {
+  color: #34b7eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #16a7e0;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #83d3f3;
+}
+
+.dizzy-default-dropdown {
+  background-color: #e9e9e9;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  padding: 5px;
+  border: 1px solid #aeaeae;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: none;
+}
+
+.dizzy-inverse-dropdown {
+  background-color: #444444;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  padding: 5px;
+  border: 1px solid #2b2b2b;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: none;
+}
+
+.showDropdown {
+  display: block;
+}
+
+h1.secondary {
+  font-size: 1.7em;
+  color: gray;
+}
+
+h2.secondary {
+  font-size: 1em;
+  color: gray;
+}
+
+h3.secondary {
+  font-size: 0.8em;
+  color: gray;
+}
+
+h4.secondary {
+  font-size: 0.6em;
+  color: gray;
+}
+
+h5.secondary {
+  font-size: 0.4em;
+  color: gray;
+}
+
+h6.secondary {
+  font-size: 0.1em;
+  color: gray;
+}
+
+ul.DF-list-3 {
+  list-style: none;
+  width: 90%;
+  margin: 15px;
+  padding: 0;
+  word-wrap: break-word;
+  background-color: #ddd;
+  color: #555;
+}
+ul.DF-list-3 li.DF-list-2 {
+  border: 1px solid #bbb;
+  padding: 12px;
+  margin-top: -1px;
+}
+
+ol.DF-List-4 {
+  list-style: none;
+  width: 90%;
+  margin: 15px;
+  padding: 0;
+  word-wrap: break-word;
+  background-color: #ddd;
+  color: #555;
+}
+ol.DF-List-4 li.DF-List-1 {
+  border: 1px solid #bbb;
+  padding: 12px;
+  margin-top: -1px;
+}
+
+.dizzy-elements {
+  background-color: #fff;
+  box-shadow: inset 0 0 1.2px gray;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+
+.dizzy-border-side-yellow {
+  border-left: 4px solid #fff000;
+}
+
+.text-lg {
+  font-size: 1.7em;
+  color: #212529;
+  display: block;
+}
+
+footer {
+  background-color: #eee;
+  padding: 15px;
+  text-align: center;
+}
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+footer.dizzy-footer {
+  background-color: #444444;
+  color: #fff;
+}
+
+article {
+  background-color: #eee;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+  height: fit-content;
+  border: 1px solid #aaa;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+pre {
+  background-color: #ddd;
+  padding: 5px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  font-family: monospace;
+}
+
+code {
+  background-color: #d1d1d1;
+  padding: 2.14px;
+  border-radius: 2px;
+  color: #eb3434;
+}
+
+div.dizzy-divider {
+  background-color: #bbb;
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dizzy-circle {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #bbb;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dizzy-circle-primary {
+  background-color: #2670de;
+  border: 1px solid #1d5ebe;
+}
+
+.dizzy-circle-info {
+  background-color: #de7626;
+  border: 1px solid #be631d;
+}
+
+.dizzy-circle-caution {
+  background-color: #ffc108;
+  border: 1px solid #dea600;
+}
+
+.dizzy-circle-danger {
+  background-color: #e55252;
+  border: 1px solid #e02f2f;
+}
+
+.dizzy-circle-success {
+  background-color: #52e572;
+  border: 1px solid #2fe055;
+}
+
+.dizzy-circle-dark {
+  background-color: #444444;
+  border: 1px solid #303030;
+}
+
+.dizzy-circle-light {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+}
+
+.hideElement {
+  display: none;
+}
+
+.dizzy-btn-outlined {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dizzy-outlined-primary {
+  border: 1px solid #226ddd;
+  color: #2670de;
+}
+
+.dizzy-outlined-primary:hover {
+  background-color: #2670de;
+  color: #fff;
+}
+
+.dizzy-outlined-primary:focus {
+  box-shadow: 0 0 0 0.2rem #689ce8;
+}
+
+.dizzy-outlined-info {
+  border: 1px solid #e79a60;
+  color: #de7626;
+}
+
+.dizzy-outlined-info:hover {
+  background-color: #e79a60;
+  color: #fff;
+}
+
+.dizzy-outlined-info:focus {
+  box-shadow: 0 0 0 0.2rem #f2caab;
+}
+
+.dizzy-outlined-caution {
+  border: 1px solid #ffd75f;
+  color: #ffd75f;
+}
+
+.dizzy-outlined-caution:hover {
+  background-color: #ffd75f;
+  color: black;
+}
+
+.dizzy-outlined-caution:focus {
+  box-shadow: 0 0 0 0.2rem #ffe597;
+}
+
+.dizzy-outlined-danger {
+  border: 1px solid #e55252;
+  color: #e55252;
+}
+
+.dizzy-outlined-danger:hover {
+  background-color: #e55252;
+  color: #fff;
+}
+
+.dizzy-outlined-danger:focus {
+  box-shadow: 0 0 0 0.2rem #f2abab;
+}
+
+.dizzy-outlined-success {
+  border: 1px solid #4ee46e;
+  color: #52e572;
+}
+
+.dizzy-outlined-success:hover {
+  background-color: #52e572;
+  color: #fff;
+}
+
+.dizzy-outlined-success:focus {
+  box-shadow: 0 0 0 0.2rem #95efa8;
+}
+
+.dizzy-outlined-dark {
+  border: 1px solid #414141;
+  color: #444444;
+}
+
+.dizzy-outlined-dark:hover {
+  background-color: #444444;
+  color: #fff;
+}
+
+.dizzy-outlined-dark:focus {
+  box-shadow: 0 0 0 0.2rem #5e5e5e;
+}
+
+.dizzy-outlined-light {
+  border: 1px solid #eee;
+  color: #000;
+}
+
+.dizzy-outlined-light:hover {
+  background-color: #eee;
+}
+
+.dizzy-outlined-light:focus {
+  box-shadow: 0 0 0 0.2rem #c9e9f6;
+}
+
+.-pd-control {
+  padding: 5px;
+}
+
+.inverse-form:focus {
+  border: 1px solid #b9def2;
+  box-shadow: 0 0 0 0.2rem #d3eaf7;
+}
+
+.DFN-Sidebar {
+  padding: 15px;
+  box-shadow: 0 0 10px #777777;
+  border-radius: 10px;
+}
+.DFN-Sidebar .df-sidebar-links {
+  text-decoration: none;
+  color: gray;
+}
+.DFN-Sidebar .df-sidebar-links:hover {
+  color: #9a9a9a;
+}
+.DFN-Sidebar .df-sidebar-links:focus {
+  box-shadow: 0 0 0 0.2rem #c9e9f6;
+}
+
+.DFN-Sidebar-Default {
+  background: white;
+  margin: 0;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Heading {
+  text-align: left;
+  font-size: 2.1rem;
+}
+.DFN-Sidebar-Default .DFN-flex-ab-4a,
+.DFN-Sidebar-Default .DFN-flex-cv-3b,
+.DFN-Sidebar-Default .DFN-flex-ft-8c {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  color: #3b3b3b;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  transition: 0.4s;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Link:hover {
+  color: #838383;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Link:active {
+  color: #9a9a9a;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Navigation,
+.DFN-Sidebar-Default .-SideBar-Container {
+  list-style: none;
+  width: 90%;
+  margin: 15px;
+  padding: 0;
+  word-wrap: break-word;
+  color: #555;
+  user-select: none;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Navigation .DFN-Sidebar-Side,
+.DFN-Sidebar-Default .-SideBar-Container .DFN-Sidebar-Side {
+  margin: 9px;
+  padding: 15px;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Navigation .DFN-Sidebar-Side:hover,
+.DFN-Sidebar-Default .-SideBar-Container .DFN-Sidebar-Side:hover {
+  background: #689ce8;
+  color: #fff;
+}
+.DFN-Sidebar-Default .DFN-Sidebar-Navigation .DFN-Sidebar-Side:active,
+.DFN-Sidebar-Default .-SideBar-Container .DFN-Sidebar-Side:active {
+  background: #7faaeb;
+}
+
+.card {
+  padding: 15px;
+  width: fit-content;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px #8a8a8a;
+  align-self: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 6px 8px #8a8a8a;
+}
+
+.card:active {
+  background: #eee;
+}
+
+/* Dizzy Framework | Section 4 
+* Dizzy Framework - SCSS Original - v4.0
+* 2022 GeoneveStudios™ All Rights Reserved.
+* *Old Website*: "https://geonevestudios.glitch.me"
+* *New Website*: "https://geoneve.github.io"
+* *Open Source*: "https://github.com/geoneve/DizzyFramework"
+* M.I.T License.
+*/
+.card-container {
+  padding: 30px;
+  border: 1px solid #dededf;
+  margin: 30px;
+  box-shadow: 0 6px 9px gainsboro;
+  border-radius: 13px;
+}
+
+.form-a {
+  margin: 5px;
+  align-self: center;
+}
+
+.form-b {
+  margin: 5px;
+  align-self: center;
+}
+
+.form-c {
+  margin: 5px;
+  align-self: center;
+}
+
+.margindw {
+  margin: 15px;
+}
